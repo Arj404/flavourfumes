@@ -140,3 +140,12 @@ a {
   width: 100%;
   padding: 3rem 0 3rem 0;
 }
+
+@media only screen and (max-device-width: 1000px) {
+  .mflex-col {
+    flex-direction: column-reverse;
+  }
+  .mw-\[100\%\] {
+    width: 100%;
+  }
+}
