@@ -124,6 +124,11 @@ a {
   --tw-text-opacity: 1;
   /* color: rgba(255, 255, 255, var(--tw-text-opacity)); */
 }
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 95%;
+}
 
 .navicon {
   display: inline-block;
