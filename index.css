@@ -126,11 +126,8 @@ a {
 }
 .footer {
   bottom: 0;
-  position: unset;
+  position: fixed;
   width: 95%;
-}
-body {
-  min-height: 65rem;
 }
 
 .navicon {
@@ -155,5 +152,13 @@ body {
   }
   .mw-\[100\%\] {
     width: 100%;
+  }
+  body {
+    min-height: 60rem;
+  }
+  .footer {
+    bottom: 0;
+    position: unset;
+    width: 95%;
   }
 }
