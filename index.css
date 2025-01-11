@@ -126,8 +126,11 @@ a {
 }
 .footer {
   bottom: 0;
-  position: absolute;
+  position: unset;
   width: 95%;
+}
+body {
+  min-height: 65rem;
 }
 
 .navicon {
